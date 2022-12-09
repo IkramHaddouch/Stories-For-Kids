@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group  android:checkableBehavior="single">
+        <item
+            android:title="Home"
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"/>
+    </group>
+    <group  android:checkableBehavior="single">
+        <item
+            android:title="6-8ans">
+            <menu>
+                <item
+                    android:title="Pour dormir"
+                    android:id="@+id/nav_dormir"
+                    android:icon="@drawable/ic_baseline_brightness_3_24"/>
+                <item
+                    android:title="Aventures"
+                    android:id="@+id/nav_aventures"
+                    android:icon="@drawable/ic_baseline_downhill_skiing_24"/>
+                <item
+                    android:title="Les princesses"
+                    android:id="@+id/nav_princesses"
+                    android:icon="@drawable/ic_baseline_face_retouching_natural_24"/>
+
+            </menu>
+        </item>
+    </group>
+    <group  android:checkableBehavior="single">
+        <item
+            android:title="8-11ans">
+            <menu>
+                <item
+                    android:title="Pour dormir"
+                    android:id="@+id/nav_dormir2"
+                    android:icon="@drawable/ic_baseline_brightness_3_24"/>
+                <item
+                    android:title="Aventures"
+                    android:id="@+id/nav_aventures2"
+                    android:icon="@drawable/ic_baseline_downhill_skiing_24"/>
+                <item
+                    android:title="Les princesses"
+                    android:id="@+id/nav_princesses2"
+                    android:icon="@drawable/ic_baseline_face_retouching_natural_24"/>
+
+            </menu>
+        </item>
+    </group>
+    <group  android:checkableBehavior="single">
+        <item
+            android:title="11-14ans">
+            <menu>
+                <item
+                    android:title="Pour dormir"
+                    android:id="@+id/nav_dormir3"
+                    android:icon="@drawable/ic_baseline_brightness_3_24"/>
+                <item
+                    android:title="Aventures"
+                    android:id="@+id/nav_aventures3"
+                    android:icon="@drawable/ic_baseline_downhill_skiing_24"/>
+                <item
+                    android:title="Les princesses"
+                    android:id="@+id/nav_princesses3"
+                    android:icon="@drawable/ic_baseline_face_retouching_natural_24"/>
+
+            </menu>
+        </item>
+    </group>
+    <group  android:checkableBehavior="single">
+        <item
+            android:title="Profile">
+            <menu>
+                <item
+                    android:title="Logout"
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_baseline_logout_24"/>
+
+            </menu>
+        </item>
+    </group>
+</menu>
